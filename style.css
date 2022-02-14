@@ -21,6 +21,7 @@ header {
     width: 100%;
     background-color:white;
     position: fixed;
+    z-index: 2;
 }
 
 nav {
@@ -85,5 +86,56 @@ nav ul li a {
 
 /* ANCHOR MAIN  */
 
+main {
+    position: relative;
+}
+.blocco1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.spaziatura-blocco1 {
+    height: calc(20vh + 15px);
+
+    width: 100%;
+    border: 3px solid black;
+    float: left;
+}
+
+.spaziatura2-blocco1 {
+    height: calc(80vh - 15px);
+
+    width: 10%;
+    border: 3px solid black;
+    float: left;
+}
+
+.spaziatura3-blocco1 {
+    height: calc(80vh - 15px);
+
+    width: 10%;
+    border: 3px solid black;
+    float: right;
+}
+
+.titolo-blocco1 {
+    height: 25%;
+    width: 80%;
+    border: 3px solid black;
+    float: left;
+}
+
+.titolo-blocco1 p {
+    font-size: 4.2em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#blocco2 {
+    height: 300vh;
+    width: 100%;
+}
 
 /* ANCHOR FOOTER  */
