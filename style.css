@@ -17,6 +17,36 @@
 /* ANCHOR HEADER */
 
 
+/* NAV (MENU SOPRA) */
+
+header {
+    background-color: red;
+    height: 17vh;
+    width: 100%;
+}
+
+nav {
+    background-color: yellow;
+    border: 2px solid black;  
+    width: 100%;
+    position: relative;
+}
+
+.nav-container-a {
+    width: 43%;
+    height: 60%;
+    background-color: blue;
+    float: left;
+}
+
+.nav-container-b {
+    width: 43%;
+    height: 60%;
+    background-color: green;
+    float: right;
+}
+
+
 /* ANCHOR MAIN  */
 
 
