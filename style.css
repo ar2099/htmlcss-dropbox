@@ -26,9 +26,9 @@ header {
 
 nav {
     /* background-color: blueviolet; */
-    height: 10vh;
+    height: 9vh;
     width: 100%;
-    margin: 15px auto 0px auto;
+    margin: 0px auto 0px auto;
     position: relative;
     
 }
@@ -45,6 +45,16 @@ nav ul li {
     padding: 15px;
     background-color: white;
     margin: -3px;
+
+}
+
+.change:hover {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+    background-color: antiquewhite ;
+    margin: -3px;
+    border-bottom: 2px solid black;
 
 }
 
@@ -86,6 +96,8 @@ nav ul li a {
 
 /* ANCHOR MAIN  */
 
+/* ANCHOR MAIN BLOCCO1  */
+
 main {
     position: relative;
 }
@@ -100,7 +112,7 @@ main {
     height: calc(20vh + 15px);
 
     width: 100%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     float: left;
 }
 
@@ -108,7 +120,7 @@ main {
     height: calc(80vh - 15px);
 
     width: 10%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     float: left;
 }
 
@@ -116,14 +128,14 @@ main {
     height: calc(80vh - 15px);
 
     width: 10%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     float: right;
 }
 
 .titolo-blocco1 {
-    height: 25%;
+    height: 28%;
     width: 80%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     float: left;
 }
 
@@ -131,6 +143,55 @@ main {
     font-size: 4.2em;
     font-weight: bold;
     display: inline-block;
+}
+
+.descrizione-blocco1 {
+    height: calc(80vh - 15px - 28%);
+    width: 27%;
+    /* border: 3px solid black; */
+    float: left;
+}
+
+.descrizione-blocco1 p {
+    width: 80%;
+}
+
+#pulsante-blocco1 {  
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 22px 8px 22px;
+    text-decoration: none;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#descrizione-pulsante-blocco1 {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.freccia {
+    font-size: 2.5em;
+}
+
+.foto-blocco1 {
+    width: 53%;
+    height: calc(80vh - 15px - 28%);
+    /* border: 3px solid black; */
+    float: left;
+}
+
+.foto-blocco1 img {
+    width: 100%;
+}
+
+.blocco-intermezzo {
+    width: 100%;
+    height: 33vh;
+    background-color: yellow;
 }
 
 #blocco2 {
