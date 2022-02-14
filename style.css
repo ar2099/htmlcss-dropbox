@@ -25,50 +25,42 @@ header {
 
 nav {
     background-color: blueviolet;
-    height: 15vh;
-    width: 95%;
+    height: 13vh;
+    width: 97%;
     margin: 15px auto 15px auto;
     position: relative;
     
 }
 
-nav .contenitore-immagine {
+nav img {
     background-color: brown;
-    float: left;
-    width: 20%;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
 }
 
 nav ul {
-    float: left;
-    background-color: brown;
-    list-style: none;
-    width: 30%;
-    height: 100%;
-}
-
-nav ul li {
     display: inline-block;
-    background-color: red;
-    
+    background-color: aqua;
 }
 
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    background-color: white;
-}
-
-#pulsante-header {
-    height: 100%;
-    background-color: brown;
-    text-decoration: none;
+#pulsante-header {  
     color: white;
-    
-    width: 20%;
-
-    float: right;
+    background-color: #0061FF;
+    padding: 8px 22px 8px 22px;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%); 
 }
+
+
+
+
 
 /* ANCHOR MAIN  */
 
