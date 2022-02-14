@@ -14,7 +14,9 @@
   display: table;
 }
 
-
+main {
+    height: 600vh;
+}
 /* ANCHOR HEADER */
 
 header {
@@ -191,12 +193,85 @@ main {
 .blocco-intermezzo {
     width: 100%;
     height: 33vh;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
+
+/* ANCHOR BLOCCO2  */
 
 #blocco2 {
     height: 300vh;
+    width: 70%;
+    margin: auto;
+    /* background-color: rgb(134, 134, 134); */
+    position: relative;
+}
+
+#titolo-piano-dropbox {
+    font-size: 2.1em;
+    display: block;
+    font-weight: bolder;
+    /* border: 1px solid rgb(141, 137, 137); */
+    float: left;
     width: 100%;
+    height: 13vh;
+}
+
+#blocco2 form {
+    display: block;
+    /* border: 1px solid rgb(141, 137, 137); */
+    float: left;
+    width: 100%;
+    height: 8vh;
+}
+
+#blocco2 form label {
+    margin-right: 23px;
+}
+
+.colonna {
+    width: 30%;
+    height: 90vh;
+    border: 1px solid rgb(141, 137, 137);
+    float: left;
+}
+
+.colla-vuota {
+    width: 5%;
+    height: 90vh;
+    /* border: 1px solid rgb(141, 137, 137); */
+    float: left;
+}
+.sopra-colonna {
+    width: 100%;
+    /* background-color: blue; */
+
+}
+
+.simbolo-sopra-colonna {
+    width: 100%;
+    /* background-color: yellow; */
+    display: inline-block;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgb(141, 137, 137);
+
+}
+
+.nome-piano {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 30px 0px 15px 15px;
+}
+
+.prezzo-piano {
+    font-weight: bolder;
+    margin: 0px 0px 15px 15px;
+}
+.mese-piano {
+    font-size: 0.8em;
+    margin: 0px 0px 15px 15px;
+    color: rgb(141, 137, 137);
 }
 
 /* ANCHOR FOOTER  */
