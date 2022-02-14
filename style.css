@@ -19,30 +19,51 @@
 
 header {
     width: 100%;
-    background-color: yellow;
+    background-color:white;
     position: fixed;
 }
 
 nav {
-    background-color: blueviolet;
-    height: 13vh;
-    width: 97%;
-    margin: 15px auto 15px auto;
+    /* background-color: blueviolet; */
+    height: 10vh;
+    width: 100%;
+    margin: 15px auto 0px auto;
     position: relative;
     
 }
 
-nav img {
-    background-color: brown;
+nav ul {
+    display: inline-block;
+    /* background-color: aqua; */
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+    background-color: white;
+    margin: -3px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sinistra {
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
 }
 
-nav ul {
-    display: inline-block;
-    background-color: aqua;
+.destra {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
 }
 
 #pulsante-header {  
@@ -52,10 +73,10 @@ nav ul {
     text-decoration: none;
     font-size: 0.8em;
     font-weight: lighter;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     right: 0%;
-    transform: translate(0%, -50%); 
+    transform: translate(0%, -50%);  */
 }
 
 
