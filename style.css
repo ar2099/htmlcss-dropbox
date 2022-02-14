@@ -17,7 +17,58 @@
 
 /* ANCHOR HEADER */
 
+header {
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+}
 
+nav {
+    background-color: blueviolet;
+    height: 15vh;
+    width: 95%;
+    margin: 15px auto 15px auto;
+    position: relative;
+    
+}
+
+nav .contenitore-immagine {
+    background-color: brown;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+nav ul {
+    float: left;
+    background-color: brown;
+    list-style: none;
+    width: 30%;
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: red;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+#pulsante-header {
+    height: 100%;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    
+    width: 20%;
+
+    float: right;
+}
 
 /* ANCHOR MAIN  */
 
