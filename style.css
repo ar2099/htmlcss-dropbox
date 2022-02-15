@@ -524,5 +524,25 @@ background-image: url(immagini/05-business-feature-send-files-it.png  );
 background-image: url(immagini/06-business-feature-security.png  );
 }
 
+/* ANCHOR BLOCCO6  */
+
+.blocco6 {
+    width: 70%;
+    height: 25vh;
+    /* background-color: blue;  */
+    margin: auto;
+}
+
+.titolo-blocco6 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    /* background-color: yellow;  */
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.sottotitolo-blocco6 {
+    color: rgb(0, 162, 255);
+}
 
 /* ANCHOR FOOTER  */
