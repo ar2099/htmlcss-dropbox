@@ -270,8 +270,20 @@ main {
 }
 .mese-piano {
     font-size: 0.8em;
-    margin: 0px 0px 15px 15px;
+    margin: 0px 0px 40px 15px;
     color: rgb(141, 137, 137);
 }
+
+.simbolo-blocco2 {
+    font-size: 0.8em;
+}
+
+.descrizione-piano-blocco2 {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+
+
 
 /* ANCHOR FOOTER  */
