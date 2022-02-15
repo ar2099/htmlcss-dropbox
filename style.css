@@ -230,14 +230,14 @@ main {
 
 .colonna {
     width: 30%;
-    height: 90vh;
+    height: 130vh;
     border: 1px solid rgb(141, 137, 137);
     float: left;
 }
 
 .colla-vuota {
     width: 5%;
-    height: 90vh;
+    height: 130vh;
     /* border: 1px solid rgb(141, 137, 137); */
     float: left;
 }
@@ -283,7 +283,46 @@ main {
     margin-bottom: 20px;
 }
 
+.pulsante-colonna-blocco2 {  
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 22px 8px 22px;
+    text-decoration: none;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    width: 85%;
+    margin: 50px auto 25px auto;
+    
+}
 
+.acquista-piano-blocco2 {
+    margin: 0px 0px 15px 30px;
+    font-size: 0.8em;
+}
 
+.link-acquista-ora {
+    color: rgb(0, 162, 255);
+}
+
+.intermezzo-blocco2 {
+    display: block;
+    width: 14%;
+    height: 2vh;
+    border-bottom: 2px solid black;
+     margin: 0px 0px 30px 30px;
+}
+
+.punti-piano {
+    font-weight: bolder;
+    margin: 0px 0px 30px 23px;
+    display: block;
+}
+
+.spunta-blu-blocco2 {
+    color:rgb(0, 162, 255);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
 
 /* ANCHOR FOOTER  */
