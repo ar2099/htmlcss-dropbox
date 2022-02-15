@@ -330,7 +330,7 @@ main {
 #blocco3 {
     height: 30vh;
     width: 70%;
-    margin: auto;
+    margin: auto auto 110px auto;
     border: 1px solid rgb(141, 137, 137);
     position: relative;
 }
@@ -386,4 +386,55 @@ main {
  
 }
 
+/* ANCHOR BLOCCO4  */
+
+.blocco4 {
+    /* background-color: red; */
+    width: 70%;
+    height: 65vh;
+    margin: auto;
+    position: relative;
+}
+
+.blocco4-container-a {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(immagini/partner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blocco4-container-b {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 221); */
+}
+
+.nome-blocco4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 60px 0px 30px 31px;
+    width: 75%;
+}
+
+.descrizione-blocco4 {
+    margin: 0px 0px 22px 31px;
+    width: 75%;
+    font-size: 0.95em;
+}
+
+.pulsante-blocco4 {  
+    color: rgb(0, 0, 0);
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    width: 35%;
+    border: 1px solid black;
+    margin: 0px 0px 15px 31px;
+}
 /* ANCHOR FOOTER  */
