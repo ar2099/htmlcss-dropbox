@@ -530,7 +530,7 @@ background-image: url(immagini/06-business-feature-security.png  );
     width: 70%;
     height: 25vh;
     /* background-color: blue;  */
-    margin: auto;
+    margin: auto auto 60px auto;
 }
 
 .titolo-blocco6 {
@@ -544,5 +544,93 @@ background-image: url(immagini/06-business-feature-security.png  );
 .sottotitolo-blocco6 {
     color: rgb(0, 162, 255);
 }
+
+/* ANCHOR BLOCCO7  */
+
+.blocco7 {
+    width: 100%;
+    border: 2px solid purple;
+    position: relative;
+}
+
+.quadrato-sinistra-blocco7 {
+    width: 28.5%;
+    /* background-color: aquamarine; */
+    position: relative;
+    float: left;
+   
+}
+
+.quadrato-destra-blocco7 {
+    width: 28.5%;
+    /* background-color: aquamarine; */
+    position: relative;
+    float: right;
+}
+
+ .quadratino-blocco7 {
+    width: 50%;
+    padding-top: 50%;
+    float: left;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    filter: invert(100%);
+} 
+
+.quadratino-blocco7:hover {
+    width: 50%;
+    padding-top: 50%;
+    float: left;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    outline: 10px solid #00000083;
+    outline-offset: -10px;
+} 
+
+#blocco7-01 {
+    background-image: url(immagini/designit.svg);
+    background-color: #5D2C64;
+}
+
+#blocco7-02 {
+    background-image: url(immagini/arizona_state_university.svg);
+    background-color: #9EF7D4 ;
+}
+
+#blocco7-03 {
+    background-image: url(immagini/university_of_florida.svg);
+    background-color: #FF6C31;
+}
+
+#blocco7-04 {
+    background-image: url(immagini/topps.svg );
+    background-color: #00E3E3;
+}
+
+#blocco7-05 {
+    background-image: url(immagini/world_bicycle_relief.svg );
+    background-color: #2AFFE0;
+}
+
+#blocco7-06 {
+    background-image: url(immagini/hearst_corp.svg );
+    background-color: #4B2F18;
+}
+
+#blocco7-07 {
+    background-image: url(immagini/lonely_planet.svg );
+    background-color: #F2DB7E;
+}
+
+#blocco7-08 {
+    background-image: url(immagini/clear_channel.svg );
+    background-color: #0027CF;
+}
+
+
+
 
 /* ANCHOR FOOTER  */
