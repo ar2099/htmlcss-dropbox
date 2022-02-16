@@ -658,7 +658,42 @@ background-image: url(immagini/06-business-feature-security.png  );
     background-color: #0027CF;
 }
 
+/* ANCHOR BLOCCO8  */
 
+.blocco8 {
+    width: 100%;
+    height: 45vh;
+    background-color: #B4D0E7;
+}
 
+.contenuto-blocco8 {
+    width: 70%;
+    /* background-color: yellow; */
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.titolo-blocco8 {
+    margin-top: 110px;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #61082B;
+    width: 50%;
+    display: inline-block;
+}
+
+.pulsante-blocco8 {  
+    color: rgb(0, 0, 0);
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    width: 30%;
+    float: right;
+    background-color: white;
+    margin: 110px 30px 0px 0px;
+}
 
 /* ANCHOR FOOTER  */
