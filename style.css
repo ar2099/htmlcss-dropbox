@@ -740,10 +740,11 @@ footer {
     width: 85%;
     margin: auto;
     position: relative;
-    padding-top: 110px;
+    padding-top: 60px;
+    /* background-color: #F2DB7E; */
 }
 .contenuto-footer ul {
-    background-color: #5D2C64;
+    /* background-color: #5D2C64; */
     display: inline-block;
     list-style: none;
     margin-right: 80px;
@@ -764,4 +765,22 @@ footer {
 
 .contenuto-footer ul li {
     margin-bottom: 10px;
+}
+
+.lingua-spazio-sopra {
+    /* background-color: #0061FF; */
+    width: 100%;
+    height: 10vh;
+    float: left;
+}
+
+.lingua {
+    padding-top: 10px;
+    border-top: 1px solid grey;
+   float: left;
+}
+.mondo {
+    color: white;
+   
+    margin-right: 8px;
 }
